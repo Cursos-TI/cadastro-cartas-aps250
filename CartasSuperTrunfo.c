@@ -14,11 +14,11 @@ int main(){
     int pontos_turisticos;
 
         printf("Digite o estado: \n");
-        scanf("%s", &estado);
+        scanf("%s", estado);
         printf("Digite o código da carta: \n");
-        scanf("%s", &codigo_carta);
+        scanf("%s", codigo_carta);
         printf("Digite o nome da cidade: \n");
-        scanf("%s", &nome_cidade);
+        scanf("%s", nome_cidade);
         printf("Digite a população: \n");
         scanf("%d", &populacao);
         printf("Digite a área: \n");
@@ -33,11 +33,11 @@ int main(){
         printf("População: %d - Área: %.2f - PIB: %.2f - Pontos turísticos: %d", populacao, area, pib, pontos_turisticos);
 
         printf("\n\nDigite o estado: \n");
-        scanf("%s", &estado);
+        scanf("%s", estado);
         printf("Digite o código da carta: \n");
-        scanf("%s", &codigo_carta);
+        scanf("%s", codigo_carta);
         printf("Digite o nome da cidade: \n");
-        scanf("%s", &nome_cidade);
+        scanf("%s", nome_cidade);
         printf("Digite a população: \n");
         scanf("%d", &populacao);
         printf("Digite a área: \n");
